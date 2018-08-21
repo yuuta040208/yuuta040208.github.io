@@ -173,7 +173,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../img/intro-bg.jpg) no-repeat center top;
+	background: url(../img/fun.png) no-repeat center top;
 	background-color: #7bc3d1;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -192,7 +192,7 @@ hr {
 	margin-left: 10px;
 }
 #about img {
-	border-radius: 50%;
+	/*border-radius: 50%;*/
 	width: 200px;
 	height: 200px;
 	display: inline-block;
@@ -661,8 +661,8 @@ section {
 	padding: 120px 0;
 }
 header .intro-text {
-	padding-top: 300px;
-	padding-bottom: 200px;
+	padding-top: 550px;
+	padding-bottom: 20px;
 }
 .timeline:before {
 	left: 50%;
