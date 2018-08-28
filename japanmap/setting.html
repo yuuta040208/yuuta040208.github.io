@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+        <!-- CSSファイルの読み込み -->
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/colorPick.css" />
+    </head>
+
+    <body>
+        <div data-role="header" style="overflow:hidden;">
+            <h1>色の設定</h1>
+            <a data-icon="back" id="back-btn" class="ui-btn-left">戻る</a>
+            <a data-icon="plus" id="add-btn" class="ui-btn-right picker">色の追加</a>
+        </div>
+
+        <form>
+            <ul data-role="listview" data-inset="true" id="listview">
+                <li class="ui-field-contain">
+                    <label style="background-color: #4564ff;">　</label>
+                    <label>旅行</label>
+                </li>
+                <li class="ui-field-contain">
+                    <label style="background-color: #ff6434;">　</label>
+                    <label>出張</label>
+                </li>
+            </ul>
+        </form>
+
+        <div id="color-row" style="display: none;">
+            <li class="ui-field-contain ui-li-static ui-body-inherit ui-first-child ui-last-child">
+                <label for="name2">Text Input:</label>
+                <input type="text" name="name2" id="name2" value="">
+            </li>
+        </div>
+
+        <!-- JSファイルの読み込み -->
+        <script src="lib/jquery-1.11.1.min.js"></script>
+        <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+        <script src="lib/cordova.js"></script>
+        <script src="lib/colorPick.min.js"></script>
+
+        <script src="js/setting.js"></script>
+    </body>
+</html>
